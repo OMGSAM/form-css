@@ -1,0 +1,98 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+ <style>
+*{
+margin:0;
+padding:0;
+}
+body{
+width:100%;
+height:120vh;
+background:black;
+}
+.form{
+width:250px;
+height:380px;
+position:absolute;
+top:20px;
+left:20px;
+padding:25px;
+}
+.form h2{
+width:200px;
+font-family:arial;
+text-align:center;
+color:#ff7200;
+font-size:32px;
+BACKGROUND:white;
+margin:2px;
+padding:8px;
+border-radius:10px;}
+.form input{
+width:240px;
+height:35px;
+background:transparent;
+border-bottom:2px solid orange;
+border-top:none;
+border-right:none;
+border-left:none;
+color:white;
+font-size:15px;
+font-family:sans-serif;
+
+letter-spacing:2px;
+margin-top:20px;
+}
+.form input:focus{
+outline:none;}
+::placeholder{
+color:white;
+font-family:arial;
+}
+.btn{
+width:240px;
+height:40px;
+border:none;
+ text-align:center;
+margin-top:30px;
+font-size:18PX;
+BACKGROUND:#ff7200;
+BORDER-radius:10PX;
+cursor:pointer;
+color:white;
+.liw{
+   color:black;
+   }
+
+
+</style>
+<body>
+  
+<div class="form">
+<h2>LOGIN HERE </h2>
+<input type="email" placeholder="enter email here">
+<input type="email" placeholder="enter email  ">
+<button class="btn"> <a href="#">LOGIN </a></button>
+<p>DONT HAVE AN ACOOUNT<p> <br>
+<a href="#">SIGN UP HERE</a>
+<p class="liw">LOGIN WITH </p>
+<div class="icon">
+<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+<a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+</div>
+
+</body>
+</html>
